@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Notes</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="ui inverted menu">
+      <div class="header item">My Notes</div>
+      <div class="right menu">
+        <div class="item">
+          <div class="ui transparent inverted icon input">
+            <i class="search icon"></i>
+            <input type="text" placeholder="Search" />
+          </div>
+        </div>
+        <a class="item">Add Note</a>
+      </div>
+    </div>
+    <div class="ui one column doubling stackable grid container">
+      <div class="column">
+        <form class="ui form">
+          <div class="field">
+            <label>Title</label>
+            <input type="text" name="title" placeholder="Enter title">
+          </div>
+          <div class="field">
+            <label>Description</label>
+            <input type="text" name="description" placeholder="Enter description">
+          </div>
+          <button class="ui button" type="submit">Add Item</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
