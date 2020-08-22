@@ -1,0 +1,65 @@
+
+.ui.inverted.menu {
+    margin-bottom: 54px;
+}
+
+.ui.menu>.item:first-child {
+    border-radius: 0;
+}
+.ui.card.note > .content > .header {
+    padding-bottom: 48px;
+}
+.note-header {
+    cursor: pointer;
+}
+
+.note-header .edit{
+    display: none;
+}
+.note-header:hover {
+    border: 1px dashed #eee;
+}
+
+.note-header:hover .edit {
+    display: inline-block;
+}
+
+.description .list .item {
+    padding: 16px 8px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.note-delete,
+.add-item {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.note-delete:hover,
+.add-item:hover {
+    color: #000;
+}
+
+.description .list .item:hover {
+    background-color: #eee;
+}
+
+.item .trash,
+.item .edit,
+.item .view {
+    visibility: hidden;
+    color: rgba(0,0,0,.4);
+}
+
+.item .trash:hover,
+.item .edit:hover,
+.item .view:hover {
+    color: #000;
+}
+
+.description .list .item:hover .trash,
+.description .list .item:hover .edit,
+.description .list .item:hover .view {
+    visibility: visible;
+}
