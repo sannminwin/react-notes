@@ -11,7 +11,7 @@ const AddNote = () => {
 
     const addNote = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:3000/notes', {
+        axios.post('http://localhost:3001/notes', {
             title: title,
             items: []
         })

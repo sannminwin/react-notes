@@ -2,60 +2,83 @@
   "notes": [
     {
       "id": "1",
-      "title": "My First Notes",
-      "items": [
-        {
-          "id": "1",
-          "title": "first item",
-          "desc": "this is description for first item"
-        },
-        {
-          "id": "2",
-          "title": "second item",
-          "desc": "this is description for second item"
-        },
-        {
-          "id": "3",
-          "title": "third item",
-          "desc": "this is description for third item"
-        }
-      ]
+      "title": "My First Notes"
     },
     {
       "id": "2",
-      "title": "My Second Notes",
-      "items": [
-        {
-          "id": "1",
-          "title": "first item from second note",
-          "desc": "this is description for first item"
-        },
-        {
-          "id": "2",
-          "title": "second item",
-          "desc": "this is description for second item"
-        },
-        {
-          "id": "3",
-          "title": "third item",
-          "desc": "this is description for third item"
-        }
-      ]
+      "title": "My Second Notes"
     },
     {
-      "title": "My Third Notes",
-      "items": [],
-      "id": "IYmJPae"
+      "title": "Get a new job as React Developer",
+      "id": "kIhlWZ8"
+    }
+  ],
+  "items": [
+    {
+      "id": "1",
+      "noteId": "1",
+      "title": "first item",
+      "desc": "this is description for first item"
     },
     {
-      "title": "this is my new note",
-      "items": [],
-      "id": "QDgyP3t"
+      "id": "2",
+      "noteId": "1",
+      "title": "second item",
+      "desc": "this is description for second item"
     },
     {
-      "title": "another note",
-      "items": [],
-      "id": "GrG0f-P"
+      "id": "3",
+      "noteId": "1",
+      "title": "third item",
+      "desc": "this is description for third item"
+    },
+    {
+      "id": "4",
+      "noteId": "2",
+      "title": "first item from second note",
+      "desc": "this is description for first item"
+    },
+    {
+      "id": "5",
+      "noteId": "2",
+      "title": "first item from second note",
+      "desc": "this is description for first item"
+    },
+    {
+      "id": "6",
+      "noteId": "2",
+      "title": "third item",
+      "desc": "this is description for third item"
+    },
+    {
+      "id": "7",
+      "noteId": "kIhlWZ8",
+      "title": "third item",
+      "desc": "this is description for third item"
+    },
+    {
+      "noteId": "kIhlWZ8",
+      "title": "update resume",
+      "desc": "call all my friends and ask them to help me inprove my resume",
+      "id": "71dv09A"
+    },
+    {
+      "noteId": "kIhlWZ8",
+      "title": "practise telephone interview",
+      "desc": "goolle for telephone interview questions and prepare answer.",
+      "id": "uCzS8ES"
+    },
+    {
+      "noteId": "kIhlWZ8",
+      "title": "prepare for techincal interview",
+      "desc": "practise algorithem and data struture",
+      "id": "X9RfPcM"
+    },
+    {
+      "noteId": "1",
+      "title": "another item",
+      "desc": "another item",
+      "id": "q0HcpYz"
     }
   ]
 }

@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import AddNote from "./components/AddNote/AddNote";
 import Container from "./components/Container/Container";
 import './app.scss';
+import AddItem from "./components/AddItem/AddItem";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Container} />
         <Route exact path="/add/note" component={AddNote} />
+        <Route exact path="/add/item" component={AddItem} />
       </Switch>
     </Router>
   );
