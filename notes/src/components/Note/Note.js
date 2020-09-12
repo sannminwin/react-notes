@@ -66,7 +66,7 @@ const Note = (props) => {
     const renderItems = (items) => {
         return items.map((item) => {
             return (
-                <Item data={item}/>
+                <Item data={item} refresh={refresh}/>
             )
         })
     }

@@ -6,6 +6,8 @@ import AddNote from "./components/AddNote/AddNote";
 import Container from "./components/Container/Container";
 import './app.scss';
 import AddItem from "./components/AddItem/AddItem";
+import ViewItem from "./components/ViewItem/ViewItem";
+import EditItem from "./components/EditItem/EditItem";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
         <Route exact path="/" component={Container} />
         <Route exact path="/add/note" component={AddNote} />
         <Route exact path="/add/item" component={AddItem} />
+        <Route exact path="/items/:id" component={ViewItem} />
+        <Route exact path="/items/edit/:id" component={EditItem} />
       </Switch>
     </Router>
   );
